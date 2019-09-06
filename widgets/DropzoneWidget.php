@@ -13,7 +13,7 @@ use yii\base\Model;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-class DropzoneWidget extends \webulla\dropzone\DropzoneWidget {
+class DropzoneWidget extends \gustarus\dropzone\DropzoneWidget {
 
   /**
    * @var Model

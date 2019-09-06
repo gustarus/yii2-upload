@@ -6,7 +6,7 @@ Also this module has web interface to show your upload and to manage them.
 ## Installation
 **1. Require the package via composer**
 ```bash
-composer require webulla/yii2-upload
+composer require gustarus/yii2-upload
 ```
 
 **2. Add some code to your default configuration file**
