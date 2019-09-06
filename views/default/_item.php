@@ -10,7 +10,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 
 /** @var \yii\web\View $this */
-/** @var \webulla\upload\models\File $model */
+/** @var \gustarus\upload\models\File $model */
 ?>
 
 <div class="col-xs-3 file">

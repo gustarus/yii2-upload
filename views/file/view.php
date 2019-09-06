@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 
 /**
  * @var yii\web\View $this
- * @var webulla\upload\models\File $model
+ * @var gustarus\upload\models\File $model
  */
 
 $this->title = $model->name;

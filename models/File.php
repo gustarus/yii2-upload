@@ -1,8 +1,8 @@
 <?php
 
-namespace webulla\upload\models;
+namespace gustarus\upload\models;
 
-use webulla\upload\components\web\Base64File;
+use gustarus\upload\components\web\Base64File;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\Expression;

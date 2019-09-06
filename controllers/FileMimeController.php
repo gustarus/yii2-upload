@@ -1,10 +1,10 @@
 <?php
 
-namespace webulla\upload\controllers;
+namespace gustarus\upload\controllers;
 
 use Yii;
-use webulla\upload\models\FileMime;
-use webulla\upload\components\search\FileMimeSearch;
+use gustarus\upload\models\FileMime;
+use gustarus\upload\components\search\FileMimeSearch;
 use yii\filters\AccessControl;
 use yii\web\NotFoundHttpException;
 

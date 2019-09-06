@@ -5,7 +5,7 @@ use yii\widgets\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var webulla\upload\models\FileMime $model
+ * @var gustarus\upload\models\FileMime $model
  * @var yii\widgets\ActiveForm $form
  */
 ?>

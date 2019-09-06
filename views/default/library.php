@@ -9,12 +9,12 @@
 /** @var \yii\web\View $this */
 /** @var \yii\data\ActiveDataProvider $provider */
 
-webulla\upload\assets\Asset::register($this);
+gustarus\upload\assets\Asset::register($this);
 
 $this->params['header'] = 'Библиотека файлов';
 ?>
 
-<? echo \webulla\upload\widgets\DropzoneWidget::widget([
+<? echo \gustarus\upload\widgets\DropzoneWidget::widget([
   'options' => [
     'class' => 'upload__zone',
   ],

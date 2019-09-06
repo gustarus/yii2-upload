@@ -6,10 +6,10 @@
  * Contact:     gustarus@gmail.com
  */
 
-namespace webulla\upload\actions;
+namespace gustarus\upload\actions;
 
 use Yii;
-use webulla\upload\models\File;
+use gustarus\upload\models\File;
 use yii\base\Action;
 use yii\web\BadRequestHttpException;
 use yii\web\Response;

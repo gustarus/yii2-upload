@@ -1,6 +1,6 @@
 <?php
 
-namespace webulla\upload\models;
+namespace gustarus\upload\models;
 
 use Yii;
 

@@ -6,7 +6,7 @@
  * Contact:     gustarus@gmail.com
  */
 
-namespace webulla\upload\components;
+namespace gustarus\upload\components;
 
 use yii\base\Component;
 

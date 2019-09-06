@@ -6,7 +6,7 @@ use yii\grid\GridView;
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var webulla\upload\search\FileMimeSearch $searchModel
+ * @var gustarus\upload\search\FileMimeSearch $searchModel
  */
 
 $this->title = 'File Mimes';

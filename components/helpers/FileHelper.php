@@ -6,13 +6,13 @@
  * Contact:     gustarus@gmail.com
  */
 
-namespace webulla\upload\components\helpers;
+namespace gustarus\upload\components\helpers;
 
-use webulla\upload\components\web\UrlFile;
+use gustarus\upload\components\web\UrlFile;
 use Yii;
-use webulla\upload\components\web\Base64File;
-use webulla\upload\models\File;
-use webulla\upload\components\UploadResult;
+use gustarus\upload\components\web\Base64File;
+use gustarus\upload\models\File;
+use gustarus\upload\components\UploadResult;
 use yii\web\UploadedFile;
 
 class FileHelper extends \yii\helpers\FileHelper {

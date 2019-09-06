@@ -6,9 +6,9 @@
  * Contact:     gustarus@gmail.com
  */
 
-namespace webulla\upload\widgets;
+namespace gustarus\upload\widgets;
 
-use webulla\upload\models\File;
+use gustarus\upload\models\File;
 use yii\base\Model;
 use yii\helpers\Html;
 use yii\helpers\Url;

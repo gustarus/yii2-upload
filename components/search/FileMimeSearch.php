@@ -1,11 +1,11 @@
 <?php
 
-namespace webulla\upload\components\search;
+namespace gustarus\upload\components\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use webulla\upload\models\FileMime;
+use gustarus\upload\models\FileMime;
 
 /**
  * FileMimeSearch represents the model behind the search form about `upload\models\FileMime`.

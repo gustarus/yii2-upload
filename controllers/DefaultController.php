@@ -1,8 +1,8 @@
 <?php
 
-namespace webulla\upload\controllers;
+namespace gustarus\upload\controllers;
 
-use webulla\upload\models\File;
+use gustarus\upload\models\File;
 use yii\data\ActiveDataProvider;
 
 class DefaultController extends \yii\web\Controller {

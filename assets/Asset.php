@@ -6,7 +6,7 @@
  * Time: 0:59
  */
 
-namespace webulla\upload\assets;
+namespace gustarus\upload\assets;
 
 use yii\web\AssetBundle;
 
@@ -15,7 +15,7 @@ class Asset extends AssetBundle {
 	/**
 	 * @inheritdoc
 	 */
-	public $sourcePath = '@webulla/upload/public';
+	public $sourcePath = '@gustarus/upload/public';
 
 	/**
 	 * @inheritdoc

@@ -1,12 +1,12 @@
 <?php
 
-namespace webulla\upload\controllers;
+namespace gustarus\upload\controllers;
 
-use webulla\upload\actions\DownloadAction;
-use webulla\upload\actions\UploadAction;
+use gustarus\upload\actions\DownloadAction;
+use gustarus\upload\actions\UploadAction;
 use Yii;
-use webulla\upload\models\File;
-use webulla\upload\components\search\FileSearch;
+use gustarus\upload\models\File;
+use gustarus\upload\components\search\FileSearch;
 use yii\filters\AccessControl;
 use yii\web\NotFoundHttpException;
 use yii\web\UploadedFile;

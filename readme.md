@@ -21,7 +21,7 @@ Also you should define uploads folder (where to store uploaded files).
   
   'modules' => [
     'upload' => [
-      'class' => 'webulla\upload\Module',
+      'class' => 'gustarus\upload\Module',
     ],
   ],
 ];
@@ -37,7 +37,7 @@ With this code you will enable migrations from this package.
     'migrate' => [
       'class' => 'yii\console\controllers\MigrateController',
       'migrationPath' => [
-        '@webulla/upload/migrations',
+        '@gustarus/upload/migrations',
       ],
     ],
   ],

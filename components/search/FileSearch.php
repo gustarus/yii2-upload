@@ -1,11 +1,11 @@
 <?php
 
-namespace webulla\upload\components\search;
+namespace gustarus\upload\components\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use webulla\upload\models\File;
+use gustarus\upload\models\File;
 use yii\helpers\VarDumper;
 
 /**

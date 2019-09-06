@@ -1,6 +1,6 @@
 <?php
 
-namespace webulla\upload;
+namespace gustarus\upload;
 
 class Module extends \yii\base\Module {
 

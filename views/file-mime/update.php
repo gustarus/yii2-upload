@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webulla\upload\models\FileMime $model
+ * @var gustarus\upload\models\FileMime $model
  */
 
 $this->title = 'Update File Mime: ' . $model->id;
