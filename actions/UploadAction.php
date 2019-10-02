@@ -10,6 +10,7 @@ namespace gustarus\upload\actions;
 
 use Yii;
 use gustarus\upload\models\File;
+use gustarus\upload\components\web\UrlFile;
 use yii\base\Action;
 use yii\web\BadRequestHttpException;
 use yii\web\Response;
@@ -37,8 +38,17 @@ class UploadAction extends Action {
       throw new BadRequestHttpException('Only ajax requests available.');
     }
 
-    if (!$file = UploadedFile::getInstanceByName($this->name)) {
-      throw new BadRequestHttpException('File was not found in request.');
+    $file;
+    if (!($file = UploadedFile::getInstanceByName($this->name))) {
+      $url = Yii::$app->request->post('file');
+      if (!$url) {
+        throw new BadRequestHttpException('File was not found in request (looked for link or binary file).');
+      }
+
+      $file = UrlFile::parse($url);
+      if (!$file) {
+        throw new BadRequestHttpException('Bad uri to the file passed.');
+      }
     }
 
     $model = new File();
